@@ -1,8 +1,7 @@
 version: 0.2
 phases:
   install:
-    runtime-versions:
-      java: corretto17        
+    runtime-versions:        
       python: 3.11
     commands:
       - pip install --upgrade pip
